@@ -1,0 +1,602 @@
+UNUSED CSS
+
+
+
+
+/*-------------------
+    Sidebar
+-------------------*/
+.sidebar .widget-area {
+  border: 2px solid rgba(0, 0, 0, 0.07);
+  padding: 32px 30px 35px 30px;
+  margin-bottom: 30px;
+  background-color: navy;
+}
+
+.sidebar .widget-area .widget-title .title {
+  font-size: 26px;
+  border-bottom: 1px solid rgba(208, 208, 208, 0.08);
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.sidebar .widget-area .widget-title .title:after {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+  content: '';
+}
+
+.sidebar .widget-area.search {
+  border: none;
+  padding: 0;
+}
+
+.sidebar .widget-area.search .widget-body .search-form {
+  border: 2px solid rgba(208, 208, 208, 0.08);
+  position: relative;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .form-element .input-field {
+  border: none;
+  padding-right: 80px;
+  background-color: transparent;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .form-element .input-field::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #818181;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .form-element .input-field:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #818181;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .form-element .input-field::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #818181;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .form-element .input-field:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #818181;
+}
+
+.sidebar .widget-area.search .widget-body .search-form .submit-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 60px;
+  width: 70px;
+  font-size: 25px;
+}
+
+.sidebar .widget-area.category .widget-title .title {
+  margin-bottom: 26px;
+}
+
+.sidebar .widget-area.category .widget-body ul li {
+  display: block;
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(208, 208, 208, 0.08);
+  padding-bottom: 15px;
+}
+
+.sidebar .widget-area.category .widget-body ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.sidebar .widget-area.category .widget-body ul li a {
+  font-size: 16px;
+  color: #818181;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.sidebar .widget-area.category .widget-body ul li a:hover {
+  color: #fff;
+}
+
+.sidebar .widget-area.category .widget-body ul li a .count {
+  float: right;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.sidebar .widget-area.tags {
+  padding-bottom: 28px;
+}
+
+.sidebar .widget-area.tags .widget-body ul li {
+  display: inline-block;
+  margin: 0 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar .widget-area.tags .widget-body ul li a {
+  display: block;
+  border: 1px solid rgba(208, 208, 208, 0.08);
+  color: #818181;
+  padding: 5px 15px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.sidebar .widget-area.tags .widget-body ul li a:hover {
+  background-color: #fff;
+  color: navy;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li:last-child {
+  margin-bottom: 2px;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li .single-popular-post {
+  position: relative;
+  min-height: 80px;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .thumb {
+  position: absolute;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content {
+  padding-left: 100px;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content .title {
+  font-size: 18px;
+  line-height: 20px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  color: #fff;
+}
+
+.sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content .time {
+  font-size: 14px;
+  line-height: 24px;
+  color: #818181;
+}
+
+/*--------------------
+    Blog Page
+--------------------*/
+.blog-page-content-area {
+  background-color: #2B2B2B;
+  padding: 120px 0;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item {
+  background-color: navy;
+  margin-bottom: 30px;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content {
+  padding: 23px 30px 25px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-top: none;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .meta-data {
+  margin-bottom: 18px;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .meta-data li {
+  display: inline-block;
+  font-size: 14px;
+  color: #818181;
+  margin: 0 5px;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .meta-data li:first-child {
+  margin-left: 0;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .meta-data li a {
+  color: #818181;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .meta-data li a:hover {
+  color: navy;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .description {
+  color: rgba(208, 208, 208, 0.7);
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .description p {
+  color: rgba(208, 208, 208, 0.7);
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .readmore {
+  margin-top: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: block;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .readmore:hover i {
+  visibility: visible;
+  opacity: 1;
+  -ms-transform: translateX(-5px);
+  /* IE 9 */
+  -webkit-transform: translateX(-5px);
+  /* Chrome, Safari, Opera */
+  transform: translateX(-5px);
+}
+
+.blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .readmore i {
+  font-size: 20px;
+  font-weight: 700;
+  -ms-transform: translateX(-30px);
+  /* IE 9 */
+  -webkit-transform: translateX(-30px);
+  /* Chrome, Safari, Opera */
+  transform: translateX(-30px);
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper {
+  margin-top: 12px;
+  display: block;
+  text-align: center;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper .page-navigation {
+  text-align: center;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper .page-navigation li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper .page-navigation li.active a {
+  background-color: navy;
+  color: #fff;
+  border-color: navy;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper .page-navigation li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: rgba(208, 208, 208, 0.7);
+  border: 2px solid rgba(208, 208, 208, 0.08);
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  font-weight: 600;
+}
+
+.blog-page-content-area .blog-page-content-warpper .btn-wrapper .page-navigation li a:hover {
+  background-color: navy;
+  color: #fff;
+  border-color: navy;
+}
+
+/*--------------------
+    Blog Details
+--------------------*/
+.blog-single-page-content-area {
+  padding: 120px 0;
+  background-color: #2B2B2B;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item {
+  border-bottom: 1px solid rgba(208, 208, 208, 0.08);
+  padding-bottom: 8px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .thumb {
+  margin-bottom: 26px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .title {
+  font-size: 28px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .meta-data {
+  margin-bottom: 18px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .meta-data li {
+  display: inline-block;
+  font-size: 14px;
+  color: #818181;
+  margin: 0 5px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .meta-data li:first-child {
+  margin-left: 0;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .meta-data li a {
+  color: #818181;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .meta-data li a:hover {
+  color: navy;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content p {
+  color: #818181;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .blockquote {
+  background-color: navy;
+  padding: 26px 40px 25px 40px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .blockquote .text {
+  font-size: 16px;
+  line-height: 26px;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .blockquote .author {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(208, 208, 208, 0.08);
+  margin-bottom: 25px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area {
+  display: inline-block;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area ul li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area ul li:first-child {
+  font-weight: 600;
+  color: #fff;
+  margin-left: 0;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area ul li a {
+  color: #818181;
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid rgba(208, 208, 208, 0.08);
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area ul li a:hover {
+  color: navy;
+  background-color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area {
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area ul li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area ul li:first-child {
+  font-weight: 600;
+  color: #fff;
+  margin-left: 0;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area ul li:last-child {
+  margin-right: 0;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area ul li a {
+  color: #818181;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area ul li a:hover {
+  color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area {
+  padding-top: 8px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .comments-separator {
+  display: block;
+  background-color: rgba(208, 208, 208, 0.08);
+  margin-top: 22px;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list {
+  position: relative;
+  min-height: 80px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list.reply {
+  margin-left: 85px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .reply {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .reply:hover {
+  color: navy;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .thumb {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .thumb img {
+  border-radius: 50%;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .content {
+  padding-left: 100px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .content .name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .content .time {
+  font-size: 14px;
+  line-height: 20px;
+  color: #818181;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .content p {
+  color: #818181;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .form-element .input-field {
+  border: 2px solid rgba(208, 208, 208, 0.08);
+  background-color: transparent;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .form-element .input-field::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #818181;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .form-element .input-field:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #818181;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .form-element .input-field::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #818181;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .form-element .input-field:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #818181;
+}
+
+.blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .comment-form-wrapper .submit-btn {
+  border-radius: 6px;
+  font-weight: 16px;
+  font-weight: 600;
+  background-color: navy;
+  color: #fff;
+}
